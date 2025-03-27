@@ -93,15 +93,16 @@ train_depth_annealing_data.json
 ```
 It contains concatenated training data for all 10 epochs (used with a ``SequentialSampler`` in the DataLoader).
 
-You can find this final json data file in ``Data/train_depth_annealing_data.json``.
+You can download ``train_depth_annealing_data.json`` from [here](https://drive.google.com/file/d/1HvwgZa7x1QTWq8MPwEKBahxxtrK6tIfY/view?usp=sharing).
 
 
 ### Bounding Box Prediction
 
 Just like with depth estimation, follow these steps to prepare the data:
 1. Download the LVIS training dataset from the [official webite](https://www.lvisdataset.org/dataset) and install ``pycocotools``.
-2. Open and run the notebook ``Bbox/create_bbox_annealing_data.ipynb`` , following the instructions in each cell.
-This will generate the training data for the counting task, saved as ``Data/train_lvis_annealing_data.json``.
+2. Download ``annotations.json`` from [here](https://drive.google.com/file/d/1M5rZxQVqymk8KFnhjSqPwMUtXnKJGprt/view?usp=sharing) and put it in ``Aurora-perception/Bbox``
+3. Open and run the notebook ``Bbox/create_bbox_annealing_data.ipynb`` , following the instructions in each cell.
+This will generate the training data for the counting task, you can find the data in ``Data/train_lvis_annealing_data.json``.
 
 ## Training
 We follow the LoRA fine-tuning instructions from the original LLaVA repository, with a few modifications to ``train.py`` and the fine-tuning scripts to support the introduction of new tokens.
@@ -119,7 +120,7 @@ cd LLaVA
 bash scripts/v1_5/finetune_task_lora_lvis_annealing.sh
 ```
 
-Model checkpoints are in ``LLaVA/checkpoints``.
+You can download model **checkpoints** from [here](https://drive.google.com/file/d/1r7WYQWYA6VDpzfxPIHP1zEUgBYQmwNIj/view?usp=sharing).
 
 ## Evaluations
 We use the same evaluation script as the original LLaVA repo, with minor modifications in ``LLaVA/llava/eval/model_vqa.py`` (e.g., changing the temperature parameter).
