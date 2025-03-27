@@ -75,6 +75,7 @@ Aurora also uses multitask data including CoT-style visual reasoning. For this:
 AiT/vae/add_marks_ade.ipynb
 ```
 Output: a folder ``ADE_blink/`` with 500 marked images
+
 7. **Merge Depth & CoT Data for Curriculum Learning**
 
 Aurora follows a curriculum learning approach:
