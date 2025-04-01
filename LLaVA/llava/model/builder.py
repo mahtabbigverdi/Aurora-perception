@@ -57,7 +57,7 @@ def load_pretrained_model(model_path, model_base, model_name, depth_data= True, 
             if depth_data:
                 num_added_tokens = tokenizer.add_tokens(["<DEPTH_START>", "<DEPTH_END>"] + [f"<DEPTH_{num}>" for num in range(128)])
             if coordinates_data:
-            num_added_tokens = tokenizer.add_tokens([f"<PIXEL_{str(num)}>" for num in range(336)])
+                num_added_tokens = tokenizer.add_tokens([f"<PIXEL_{str(num)}>" for num in range(336)])
             ##### NEW ########
             print('Loading LLaVA from base model...')
             print("tokenizer length: "+ str(len(tokenizer)))
