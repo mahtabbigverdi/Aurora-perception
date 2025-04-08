@@ -129,7 +129,7 @@ We use the same evaluation script as the original LLaVA repo, with minor modific
 To generate answers for a ``.jsonl`` question file, use the following command:
 ```bash
 cd LLaVA/llava/eval
-python model_vqa.py --model-path /path/to/your/model --question-file /path/to/questions.jsonl --image-folder /path/to/image/folder --answers-file /path/to/output/file 
+python model_vqa.py --model-path /path/to/your/model --question-file /path/to/questions.jsonl --coordinates-data False --depth-data True --image-folder /path/to/image/folder --answers-file /path/to/output/file 
 ```
 You can then use a separate Python script or a language model to validate the answers against the ground truths.
 
