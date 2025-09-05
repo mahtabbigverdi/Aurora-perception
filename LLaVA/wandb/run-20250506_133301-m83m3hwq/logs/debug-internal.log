@@ -1,0 +1,15 @@
+{"time":"2025-05-06T13:33:01.719656697-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mmfs1/gscratch/krishna/mahtab/Aurora-perception/LLaVA/wandb/run-20250506_133301-m83m3hwq/logs/debug-core.log"}
+{"time":"2025-05-06T13:33:01.898523888-07:00","level":"INFO","msg":"created new stream","id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:01.89857667-07:00","level":"INFO","msg":"stream: started","id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:01.898592385-07:00","level":"INFO","msg":"handler: started","stream_id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:01.898602149-07:00","level":"INFO","msg":"sender: started","stream_id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:01.898621687-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:02.141662807-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-06T13:33:09.45069655-07:00","level":"INFO","msg":"stream: closing","id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:09.450727668-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-06T13:33:09.451232464-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-06T13:33:09.800961398-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-06T13:33:09.918801751-07:00","level":"INFO","msg":"handler: closed","stream_id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:09.918838562-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:09.918869713-07:00","level":"INFO","msg":"sender: closed","stream_id":"m83m3hwq"}
+{"time":"2025-05-06T13:33:09.919104187-07:00","level":"INFO","msg":"stream: closed","id":"m83m3hwq"}

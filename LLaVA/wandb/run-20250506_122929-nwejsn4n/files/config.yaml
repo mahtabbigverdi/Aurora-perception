@@ -1,0 +1,501 @@
+_name_or_path:
+    value: liuhaotian/llava-v1.5-7b
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m:
+            - "1": train/global_step
+              "6":
+                - 3
+              "7": []
+        python_version: 3.10.16
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 55
+                - 71
+                - 98
+                - 105
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 55
+                - 71
+                - 98
+                - 105
+            "3":
+                - 7
+                - 23
+                - 55
+                - 66
+            "4": 3.10.16
+            "5": 0.19.8
+            "6": 4.37.2
+            "8":
+                - 5
+            "9":
+                "1": transformers_trainer
+            "12": 0.19.8
+            "13": linux-x86_64
+adafactor:
+    value: false
+adam_beta1:
+    value: 0.9
+adam_beta2:
+    value: 0.999
+adam_epsilon:
+    value: 1e-08
+add_cross_attention:
+    value: false
+annealing_data:
+    value: true
+architectures:
+    value:
+        - LlavaLlamaForCausalLM
+attention_bias:
+    value: false
+attention_dropout:
+    value: 0
+auto_find_batch_size:
+    value: false
+bad_words_ids:
+    value: null
+begin_suppress_tokens:
+    value: null
+bf16:
+    value: true
+bf16_full_eval:
+    value: false
+bits:
+    value: 16
+bos_token_id:
+    value: 1
+cache_dir:
+    value: null
+chunk_size_feed_forward:
+    value: 0
+coordinates_data:
+    value: false
+cross_attention_hidden_size:
+    value: null
+data_seed:
+    value: null
+dataloader_drop_last:
+    value: false
+dataloader_num_workers:
+    value: 4
+dataloader_persistent_workers:
+    value: false
+dataloader_pin_memory:
+    value: true
+ddp_backend:
+    value: null
+ddp_broadcast_buffers:
+    value: null
+ddp_bucket_cap_mb:
+    value: null
+ddp_find_unused_parameters:
+    value: null
+ddp_timeout:
+    value: 1800
+debug:
+    value: []
+decoder_start_token_id:
+    value: null
+deepspeed:
+    value: ./scripts/zero3.json
+depth_data:
+    value: true
+disable_tqdm:
+    value: false
+dispatch_batches:
+    value: null
+diversity_penalty:
+    value: 0
+do_eval:
+    value: false
+do_predict:
+    value: false
+do_sample:
+    value: false
+do_train:
+    value: false
+double_quant:
+    value: true
+early_stopping:
+    value: false
+encoder_no_repeat_ngram_size:
+    value: 0
+eos_token_id:
+    value: 2
+eval_accumulation_steps:
+    value: null
+eval_delay:
+    value: 0
+eval_steps:
+    value: null
+evaluation_strategy:
+    value: "no"
+exponential_decay_length_penalty:
+    value: null
+finetuning_task:
+    value: null
+forced_bos_token_id:
+    value: null
+forced_eos_token_id:
+    value: null
+fp16:
+    value: false
+fp16_backend:
+    value: auto
+fp16_full_eval:
+    value: false
+fp16_opt_level:
+    value: O1
+freeze_mm_mlp_adapter:
+    value: false
+freeze_mm_vision_resampler:
+    value: false
+fsdp:
+    value: []
+fsdp_config:
+    value:
+        min_num_params: 0
+        xla: false
+        xla_fsdp_grad_ckpt: false
+fsdp_min_num_params:
+    value: 0
+fsdp_transformer_layer_cls_to_wrap:
+    value: null
+full_determinism:
+    value: false
+gradient_accumulation_steps:
+    value: 1
+gradient_checkpointing:
+    value: true
+gradient_checkpointing_kwargs:
+    value: null
+greater_is_better:
+    value: null
+group_by_length:
+    value: false
+group_by_modality_length:
+    value: false
+half_precision_backend:
+    value: auto
+hidden_act:
+    value: silu
+hidden_size:
+    value: 4096
+hub_always_push:
+    value: false
+hub_model_id:
+    value: null
+hub_private_repo:
+    value: false
+hub_strategy:
+    value: every_save
+hub_token:
+    value: <HUB_TOKEN>
+id2label:
+    value:
+        "0": LABEL_0
+        "1": LABEL_1
+ignore_data_skip:
+    value: false
+image_aspect_ratio:
+    value: pad
+include_inputs_for_metrics:
+    value: false
+include_num_input_tokens_seen:
+    value: false
+include_tokens_per_second:
+    value: false
+initializer_range:
+    value: 0.02
+intermediate_size:
+    value: 11008
+is_decoder:
+    value: false
+is_encoder_decoder:
+    value: false
+jit_mode_eval:
+    value: false
+label_names:
+    value: null
+label_smoothing_factor:
+    value: 0
+label2id:
+    value:
+        LABEL_0: 0
+        LABEL_1: 1
+learning_rate:
+    value: 0.0002
+length_column_name:
+    value: length
+length_penalty:
+    value: 1
+load_best_model_at_end:
+    value: false
+local_rank:
+    value: 0
+log_level:
+    value: passive
+log_level_replica:
+    value: warning
+log_on_each_node:
+    value: true
+logging_dir:
+    value: ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/runs/May06_12-27-54_g3083
+logging_first_step:
+    value: false
+logging_nan_inf_filter:
+    value: true
+logging_steps:
+    value: 1
+logging_strategy:
+    value: steps
+lora_alpha:
+    value: 256
+lora_bias:
+    value: none
+lora_dropout:
+    value: 0.05
+lora_enable:
+    value: true
+lora_r:
+    value: 128
+lora_weight_path:
+    value: ""
+lr_scheduler_type:
+    value: cosine
+max_grad_norm:
+    value: 1
+max_length:
+    value: 4096
+max_position_embeddings:
+    value: 4096
+max_steps:
+    value: -1
+metric_for_best_model:
+    value: null
+min_length:
+    value: 0
+mm_hidden_size:
+    value: 1024
+mm_patch_merge_type:
+    value: flat
+mm_projector_lr:
+    value: 2e-05
+mm_projector_type:
+    value: mlp2x_gelu
+mm_resampler_type:
+    value: null
+mm_use_im_patch_token:
+    value: false
+mm_use_im_start_end:
+    value: false
+mm_vision_select_feature:
+    value: patch
+mm_vision_select_layer:
+    value: -2
+mm_vision_tower:
+    value: openai/clip-vit-large-patch14-336
+model_max_length:
+    value: 2048
+model_type:
+    value: llava_llama
+mp_parameters:
+    value: ""
+mpt_attn_impl:
+    value: triton
+neftune_noise_alpha:
+    value: null
+no_cuda:
+    value: false
+no_repeat_ngram_size:
+    value: 0
+num_attention_heads:
+    value: 32
+num_beam_groups:
+    value: 1
+num_beams:
+    value: 1
+num_hidden_layers:
+    value: 32
+num_key_value_heads:
+    value: 32
+num_return_sequences:
+    value: 1
+num_train_epochs:
+    value: 1
+optim:
+    value: adamw_torch
+optim_args:
+    value: null
+output_attentions:
+    value: false
+output_dir:
+    value: ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora
+output_hidden_states:
+    value: false
+output_scores:
+    value: false
+overwrite_output_dir:
+    value: false
+pad_token_id:
+    value: 0
+past_index:
+    value: -1
+per_device_eval_batch_size:
+    value: 4
+per_device_train_batch_size:
+    value: 16
+per_gpu_eval_batch_size:
+    value: null
+per_gpu_train_batch_size:
+    value: null
+prediction_loss_only:
+    value: false
+prefix:
+    value: null
+pretraining_tp:
+    value: 1
+problem_type:
+    value: null
+push_to_hub:
+    value: false
+push_to_hub_model_id:
+    value: null
+push_to_hub_organization:
+    value: null
+push_to_hub_token:
+    value: <PUSH_TO_HUB_TOKEN>
+quant_type:
+    value: nf4
+ray_scope:
+    value: last
+remove_invalid_values:
+    value: false
+remove_unused_columns:
+    value: false
+repetition_penalty:
+    value: 1
+report_to:
+    value:
+        - wandb
+resume_from_checkpoint:
+    value: null
+return_dict:
+    value: true
+return_dict_in_generate:
+    value: false
+rms_norm_eps:
+    value: 1e-05
+rope_scaling:
+    value: null
+rope_theta:
+    value: 10000
+run_name:
+    value: ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora
+save_on_each_node:
+    value: false
+save_only_model:
+    value: false
+save_safetensors:
+    value: true
+save_steps:
+    value: 20
+save_strategy:
+    value: steps
+save_total_limit:
+    value: 1
+seed:
+    value: 42
+sep_token_id:
+    value: null
+skip_memory_metrics:
+    value: true
+split_batches:
+    value: false
+suppress_tokens:
+    value: null
+task_specific_params:
+    value: null
+temperature:
+    value: 1
+tf_legacy_loss:
+    value: false
+tf32:
+    value: true
+tie_encoder_decoder:
+    value: false
+tie_word_embeddings:
+    value: false
+tokenizer_class:
+    value: null
+tokenizer_model_max_length:
+    value: 2048
+tokenizer_padding_side:
+    value: right
+top_k:
+    value: 50
+top_p:
+    value: 1
+torch_compile:
+    value: false
+torch_compile_backend:
+    value: null
+torch_compile_mode:
+    value: null
+torch_dtype:
+    value: float16
+torchdynamo:
+    value: null
+torchscript:
+    value: false
+tpu_metrics_debug:
+    value: false
+tpu_num_cores:
+    value: null
+transformers_version:
+    value: 4.37.2
+tune_mm_mlp_adapter:
+    value: false
+tune_mm_vision_resampler:
+    value: false
+typical_p:
+    value: 1
+unfreeze_mm_vision_tower:
+    value: false
+use_bfloat16:
+    value: false
+use_cache:
+    value: false
+use_cpu:
+    value: false
+use_ipex:
+    value: false
+use_legacy_prediction_loop:
+    value: false
+use_mm_proj:
+    value: true
+use_mps_device:
+    value: false
+vocab_size:
+    value: 32130
+warmup_ratio:
+    value: 0.03
+warmup_steps:
+    value: 0
+weight_decay:
+    value: 0

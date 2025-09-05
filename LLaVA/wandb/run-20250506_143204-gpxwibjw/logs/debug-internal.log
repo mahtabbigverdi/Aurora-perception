@@ -1,0 +1,7 @@
+{"time":"2025-05-06T14:32:04.57978572-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mmfs1/gscratch/krishna/mahtab/Aurora-perception/LLaVA/wandb/run-20250506_143204-gpxwibjw/logs/debug-core.log"}
+{"time":"2025-05-06T14:32:04.769387602-07:00","level":"INFO","msg":"created new stream","id":"gpxwibjw"}
+{"time":"2025-05-06T14:32:04.769437872-07:00","level":"INFO","msg":"stream: started","id":"gpxwibjw"}
+{"time":"2025-05-06T14:32:04.769517163-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"gpxwibjw"}
+{"time":"2025-05-06T14:32:04.769546741-07:00","level":"INFO","msg":"handler: started","stream_id":"gpxwibjw"}
+{"time":"2025-05-06T14:32:04.769581997-07:00","level":"INFO","msg":"sender: started","stream_id":"gpxwibjw"}
+{"time":"2025-05-06T14:32:04.988175113-07:00","level":"INFO","msg":"Starting system monitor"}

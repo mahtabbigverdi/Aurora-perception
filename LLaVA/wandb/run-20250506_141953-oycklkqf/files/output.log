@@ -1,0 +1,70 @@
+  0%|                                                                 | 0/12500 [00:00<?, ?it/s]/gscratch/krishna/mahtab/miniconda3/envs/newllava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/gscratch/krishna/mahtab/miniconda3/envs/newllava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+  0%|                                                     | 20/12500 [01:30<14:35:52,  4.21s/it]Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+{'loss': 54.0347, 'learning_rate': 5.333333333333333e-07, 'epoch': 0.0}
+{'loss': 54.5895, 'learning_rate': 1.0666666666666667e-06, 'epoch': 0.0}
+{'loss': 53.9039, 'learning_rate': 1.6000000000000001e-06, 'epoch': 0.0}
+{'loss': 54.2365, 'learning_rate': 2.1333333333333334e-06, 'epoch': 0.0}
+{'loss': 53.8296, 'learning_rate': 2.666666666666667e-06, 'epoch': 0.0}
+{'loss': 53.0154, 'learning_rate': 3.2000000000000003e-06, 'epoch': 0.0}
+{'loss': 52.9007, 'learning_rate': 3.7333333333333337e-06, 'epoch': 0.0}
+{'loss': 52.5705, 'learning_rate': 4.266666666666667e-06, 'epoch': 0.0}
+{'loss': 50.6666, 'learning_rate': 4.800000000000001e-06, 'epoch': 0.0}
+{'loss': 49.0625, 'learning_rate': 5.333333333333334e-06, 'epoch': 0.0}
+{'loss': 47.603, 'learning_rate': 5.866666666666667e-06, 'epoch': 0.0}
+{'loss': 44.8151, 'learning_rate': 6.4000000000000006e-06, 'epoch': 0.0}
+{'loss': 42.3454, 'learning_rate': 6.933333333333334e-06, 'epoch': 0.0}
+{'loss': 39.9227, 'learning_rate': 7.4666666666666675e-06, 'epoch': 0.0}
+{'loss': 38.5705, 'learning_rate': 8.000000000000001e-06, 'epoch': 0.0}
+{'loss': 37.083, 'learning_rate': 8.533333333333334e-06, 'epoch': 0.0}
+{'loss': 35.0159, 'learning_rate': 9.066666666666667e-06, 'epoch': 0.0}
+{'loss': 33.1812, 'learning_rate': 9.600000000000001e-06, 'epoch': 0.0}
+{'loss': 31.8886, 'learning_rate': 1.0133333333333333e-05, 'epoch': 0.0}
+{'loss': 29.9389, 'learning_rate': 1.0666666666666667e-05, 'epoch': 0.0}
+save models to ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/checkpoint-20
+Non-default generation parameters: {'max_length': 4096}
+/gscratch/krishna/mahtab/miniconda3/envs/newllava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/gscratch/krishna/mahtab/miniconda3/envs/newllava/lib/python3.10/site-packages/peft/utils/save_and_load.py:209: UserWarning: Setting `save_embedding_layers` to `True` as the embedding layer has been resized during finetuning.
+  warnings.warn(
+  0%|▏                                                    | 40/12500 [02:58<14:34:35,  4.21s/it]Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+{'loss': 27.8535, 'learning_rate': 1.1200000000000001e-05, 'epoch': 0.0}
+{'loss': 26.3623, 'learning_rate': 1.1733333333333333e-05, 'epoch': 0.0}
+{'loss': 25.0142, 'learning_rate': 1.2266666666666667e-05, 'epoch': 0.0}
+{'loss': 23.3851, 'learning_rate': 1.2800000000000001e-05, 'epoch': 0.0}
+{'loss': 22.03, 'learning_rate': 1.3333333333333333e-05, 'epoch': 0.0}
+{'loss': 20.9028, 'learning_rate': 1.3866666666666667e-05, 'epoch': 0.0}
+{'loss': 19.2803, 'learning_rate': 1.44e-05, 'epoch': 0.0}
+{'loss': 17.8387, 'learning_rate': 1.4933333333333335e-05, 'epoch': 0.0}
+{'loss': 16.5246, 'learning_rate': 1.546666666666667e-05, 'epoch': 0.0}
+{'loss': 15.5765, 'learning_rate': 1.6000000000000003e-05, 'epoch': 0.0}
+{'loss': 14.2734, 'learning_rate': 1.6533333333333333e-05, 'epoch': 0.0}
+{'loss': 13.6443, 'learning_rate': 1.7066666666666667e-05, 'epoch': 0.0}
+{'loss': 12.7542, 'learning_rate': 1.76e-05, 'epoch': 0.0}
+{'loss': 12.1333, 'learning_rate': 1.8133333333333335e-05, 'epoch': 0.0}
+{'loss': 11.575, 'learning_rate': 1.866666666666667e-05, 'epoch': 0.0}
+{'loss': 10.9858, 'learning_rate': 1.9200000000000003e-05, 'epoch': 0.0}
+{'loss': 10.698, 'learning_rate': 1.9733333333333333e-05, 'epoch': 0.0}
+{'loss': 10.1459, 'learning_rate': 2.0266666666666667e-05, 'epoch': 0.0}
+{'loss': 9.7034, 'learning_rate': 2.08e-05, 'epoch': 0.0}
+{'loss': 9.1926, 'learning_rate': 2.1333333333333335e-05, 'epoch': 0.0}
+save models to ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/checkpoint-40
+Non-default generation parameters: {'max_length': 4096}
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+  0%|▏                                                    | 53/12500 [03:55<14:34:48,  4.22s/it]
+{'loss': 8.9684, 'learning_rate': 2.186666666666667e-05, 'epoch': 0.0}
+{'loss': 8.6636, 'learning_rate': 2.2400000000000002e-05, 'epoch': 0.0}
+{'loss': 8.209, 'learning_rate': 2.2933333333333333e-05, 'epoch': 0.0}
+{'loss': 7.8767, 'learning_rate': 2.3466666666666667e-05, 'epoch': 0.0}
+{'loss': 7.5658, 'learning_rate': 2.4e-05, 'epoch': 0.0}
+{'loss': 7.2859, 'learning_rate': 2.4533333333333334e-05, 'epoch': 0.0}
+{'loss': 6.9895, 'learning_rate': 2.5066666666666665e-05, 'epoch': 0.0}
+{'loss': 6.808, 'learning_rate': 2.5600000000000002e-05, 'epoch': 0.0}
+{'loss': 6.5594, 'learning_rate': 2.6133333333333333e-05, 'epoch': 0.0}
+{'loss': 6.241, 'learning_rate': 2.6666666666666667e-05, 'epoch': 0.0}
+{'loss': 6.3171, 'learning_rate': 2.7200000000000004e-05, 'epoch': 0.0}
+{'loss': 6.0436, 'learning_rate': 2.7733333333333334e-05, 'epoch': 0.0}
+{'loss': 5.9278, 'learning_rate': 2.8266666666666668e-05, 'epoch': 0.0}

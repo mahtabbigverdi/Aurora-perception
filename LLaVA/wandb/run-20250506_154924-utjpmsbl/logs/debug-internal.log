@@ -1,0 +1,7 @@
+{"time":"2025-05-06T15:49:24.250530998-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mmfs1/gscratch/krishna/mahtab/Aurora-perception/LLaVA/wandb/run-20250506_154924-utjpmsbl/logs/debug-core.log"}
+{"time":"2025-05-06T15:49:24.396592064-07:00","level":"INFO","msg":"created new stream","id":"utjpmsbl"}
+{"time":"2025-05-06T15:49:24.396631188-07:00","level":"INFO","msg":"stream: started","id":"utjpmsbl"}
+{"time":"2025-05-06T15:49:24.396645443-07:00","level":"INFO","msg":"handler: started","stream_id":"utjpmsbl"}
+{"time":"2025-05-06T15:49:24.396651582-07:00","level":"INFO","msg":"sender: started","stream_id":"utjpmsbl"}
+{"time":"2025-05-06T15:49:24.396674023-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"utjpmsbl"}
+{"time":"2025-05-06T15:49:24.677246512-07:00","level":"INFO","msg":"Starting system monitor"}

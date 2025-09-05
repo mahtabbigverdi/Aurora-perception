@@ -183,6 +183,10 @@ def find_all_linear_names(model):
         if any(mm_keyword in name for mm_keyword in multimodal_keywords):
             continue
         if isinstance(module, cls):
+            #remove
+            if "new_head" in name:
+                continue
+            #remove
             ##### NEW #########
             # names = name.split('.')
             # lora_module_names.add(names[0] if len(names) == 1 else names[-1])
@@ -191,6 +195,7 @@ def find_all_linear_names(model):
             ##### NEW #########
     if 'lm_head' in lora_module_names: # needed for 16-bit
         lora_module_names.remove('lm_head')
+    
     return list(lora_module_names)
 
 
@@ -984,6 +989,17 @@ def train(attn_implementation=None):
             ):
                 print("n: ", n, "p.shape: ", p.shape, "True")
                 p.requires_grad = True
+            #remove
+            if any(
+                [
+                    x in n
+                    for x in ["new_head"]
+                ]
+            ):
+                
+                print("n: ", n, "p.shape: ", p.shape, "True")
+                p.requires_grad = True
+            #remove
     for n, p in model.named_parameters():
         if p.requires_grad == True:
             print(n, "#####################################")

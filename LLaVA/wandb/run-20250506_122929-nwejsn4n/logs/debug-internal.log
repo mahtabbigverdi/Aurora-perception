@@ -1,0 +1,15 @@
+{"time":"2025-05-06T12:29:29.31800777-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mmfs1/gscratch/krishna/mahtab/Aurora-perception/LLaVA/wandb/run-20250506_122929-nwejsn4n/logs/debug-core.log"}
+{"time":"2025-05-06T12:29:29.473293128-07:00","level":"INFO","msg":"created new stream","id":"nwejsn4n"}
+{"time":"2025-05-06T12:29:29.47334461-07:00","level":"INFO","msg":"stream: started","id":"nwejsn4n"}
+{"time":"2025-05-06T12:29:29.473456591-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"nwejsn4n"}
+{"time":"2025-05-06T12:29:29.4734867-07:00","level":"INFO","msg":"sender: started","stream_id":"nwejsn4n"}
+{"time":"2025-05-06T12:29:29.47352687-07:00","level":"INFO","msg":"handler: started","stream_id":"nwejsn4n"}
+{"time":"2025-05-06T12:29:29.827855443-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-06T13:15:00.885153794-07:00","level":"INFO","msg":"stream: closing","id":"nwejsn4n"}
+{"time":"2025-05-06T13:15:00.910283837-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-06T13:15:00.951311362-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-06T13:15:01.332614497-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-06T13:15:01.536898682-07:00","level":"INFO","msg":"handler: closed","stream_id":"nwejsn4n"}
+{"time":"2025-05-06T13:15:01.536925492-07:00","level":"INFO","msg":"sender: closed","stream_id":"nwejsn4n"}
+{"time":"2025-05-06T13:15:01.536915431-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nwejsn4n"}
+{"time":"2025-05-06T13:15:01.612186512-07:00","level":"INFO","msg":"stream: closed","id":"nwejsn4n"}

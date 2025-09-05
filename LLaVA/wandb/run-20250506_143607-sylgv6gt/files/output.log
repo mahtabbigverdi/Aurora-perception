@@ -1,0 +1,281 @@
+  0%|                                                                 | 0/12500 [00:00<?, ?it/s]/gscratch/krishna/mahtab/miniconda3/envs/newllava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/gscratch/krishna/mahtab/miniconda3/envs/newllava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+^^^^^ losses:  55.089385986328125 11.589387893676758 4.34375
+  0%|                                                     | 16/12500 [01:09<14:35:10,  4.21s/it]
+{'loss': 55.0894, 'learning_rate': 5.333333333333333e-07, 'epoch': 0.0}
+^^^^^ losses:  55.98846435546875 11.488463401794434 4.4375
+{'loss': 55.9885, 'learning_rate': 1.0666666666666667e-06, 'epoch': 0.0}
+^^^^^ losses:  55.34774398803711 11.597743034362793 4.375
+{'loss': 55.3477, 'learning_rate': 1.6000000000000001e-06, 'epoch': 0.0}
+^^^^^ losses:  55.28717803955078 11.537176132202148 4.375
+{'loss': 55.2872, 'learning_rate': 2.1333333333333334e-06, 'epoch': 0.0}
+^^^^^ losses:  55.328678131103516 11.578679084777832 4.375
+{'loss': 55.3287, 'learning_rate': 2.666666666666667e-06, 'epoch': 0.0}
+^^^^^ losses:  55.24944305419922 11.499441146850586 4.375
+{'loss': 55.2494, 'learning_rate': 3.2000000000000003e-06, 'epoch': 0.0}
+^^^^^ losses:  55.131011962890625 11.381013870239258 4.375
+{'loss': 55.131, 'learning_rate': 3.7333333333333337e-06, 'epoch': 0.0}
+^^^^^ losses:  54.44771194458008 11.447712898254395 4.3125
+{'loss': 54.4477, 'learning_rate': 4.266666666666667e-06, 'epoch': 0.0}
+^^^^^ losses:  51.65707015991211 11.157069206237793 4.0625
+{'loss': 51.6571, 'learning_rate': 4.800000000000001e-06, 'epoch': 0.0}
+^^^^^ losses:  50.634361267089844 11.134359359741211 3.9375
+{'loss': 50.6344, 'learning_rate': 5.333333333333334e-06, 'epoch': 0.0}
+^^^^^ losses:  49.32321548461914 10.823216438293457 3.859375
+{'loss': 49.3232, 'learning_rate': 5.866666666666667e-06, 'epoch': 0.0}
+^^^^^ losses:  46.12788391113281 10.62788200378418 3.5625
+{'loss': 46.1279, 'learning_rate': 6.4000000000000006e-06, 'epoch': 0.0}
+^^^^^ losses:  44.73787307739258 10.237874031066895 3.4375
+{'loss': 44.7379, 'learning_rate': 6.933333333333334e-06, 'epoch': 0.0}
+^^^^^ losses:  42.356788635253906 10.106790542602539 3.234375
+{'loss': 42.3568, 'learning_rate': 7.4666666666666675e-06, 'epoch': 0.0}
+^^^^^ losses:  41.25556182861328 10.005562782287598 3.125
+{'loss': 41.2556, 'learning_rate': 8.000000000000001e-06, 'epoch': 0.0}
+^^^^^ losses:  39.05234909057617 9.802350044250488 2.921875
+{'loss': 39.0523, 'learning_rate': 8.533333333333334e-06, 'epoch': 0.0}
+^^^^^ losses:  37.22216796875 9.722168922424316 2.75
+{'loss': 37.2222, 'learning_rate': 9.066666666666667e-06, 'epoch': 0.0}
+^^^^^ losses:  34.76402282714844 9.51402473449707 2.53125
+{'loss': 34.764, 'learning_rate': 9.600000000000001e-06, 'epoch': 0.0}
+^^^^^ losses:  33.670352935791016 9.4203519821167 2.421875
+{'loss': 33.6704, 'learning_rate': 1.0133333333333333e-05, 'epoch': 0.0}
+^^^^^ losses:  31.04027557373047 9.290274620056152 2.171875
+{'loss': 31.0403, 'learning_rate': 1.0666666666666667e-05, 'epoch': 0.0}
+save models to ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/checkpoint-20
+Non-default generation parameters: {'max_length': 4096}
+/gscratch/krishna/mahtab/miniconda3/envs/newllava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/gscratch/krishna/mahtab/miniconda3/envs/newllava/lib/python3.10/site-packages/peft/utils/save_and_load.py:209: UserWarning: Setting `save_embedding_layers` to `True` as the embedding layer has been resized during finetuning.
+  warnings.warn(
+^^^^^ losses:  29.32211685180664 9.44711685180664 1.9921875
+  0%|▏                                                    | 36/12500 [02:35<14:35:15,  4.21s/it]
+{'loss': 29.3221, 'learning_rate': 1.1200000000000001e-05, 'epoch': 0.0}
+^^^^^ losses:  27.966947555541992 9.216947555541992 1.875
+{'loss': 27.9669, 'learning_rate': 1.1733333333333333e-05, 'epoch': 0.0}
+^^^^^ losses:  26.421070098876953 9.046070098876953 1.7421875
+{'loss': 26.4211, 'learning_rate': 1.2266666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  24.82898712158203 9.141488075256348 1.5703125
+{'loss': 24.829, 'learning_rate': 1.2800000000000001e-05, 'epoch': 0.0}
+^^^^^ losses:  23.358549118041992 9.108549118041992 1.421875
+{'loss': 23.3585, 'learning_rate': 1.3333333333333333e-05, 'epoch': 0.0}
+^^^^^ losses:  22.18294906616211 8.99544906616211 1.3203125
+{'loss': 22.1829, 'learning_rate': 1.3866666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  20.517196655273438 8.767197608947754 1.171875
+{'loss': 20.5172, 'learning_rate': 1.44e-05, 'epoch': 0.0}
+^^^^^ losses:  19.107654571533203 8.732654571533203 1.0390625
+{'loss': 19.1077, 'learning_rate': 1.4933333333333335e-05, 'epoch': 0.0}
+^^^^^ losses:  17.65477180480957 8.59227180480957 0.90625
+{'loss': 17.6548, 'learning_rate': 1.546666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  16.61622428894043 8.49122428894043 0.8125
+{'loss': 16.6162, 'learning_rate': 1.6000000000000003e-05, 'epoch': 0.0}
+^^^^^ losses:  15.465033531188965 8.308783531188965 0.71484375
+{'loss': 15.465, 'learning_rate': 1.6533333333333333e-05, 'epoch': 0.0}
+^^^^^ losses:  14.660045623779297 8.097545623779297 0.65625
+{'loss': 14.66, 'learning_rate': 1.7066666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  13.758025169372559 7.945525169372559 0.58203125
+{'loss': 13.758, 'learning_rate': 1.76e-05, 'epoch': 0.0}
+^^^^^ losses:  13.145806312561035 7.770806312561035 0.5390625
+{'loss': 13.1458, 'learning_rate': 1.8133333333333335e-05, 'epoch': 0.0}
+^^^^^ losses:  12.682235717773438 7.525985240936279 0.515625
+{'loss': 12.6822, 'learning_rate': 1.866666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  12.026386260986328 7.276386737823486 0.474609375
+{'loss': 12.0264, 'learning_rate': 1.9200000000000003e-05, 'epoch': 0.0}
+^^^^^ losses:  11.505175590515137 7.005175590515137 0.451171875
+{'loss': 11.5052, 'learning_rate': 1.9733333333333333e-05, 'epoch': 0.0}
+^^^^^ losses:  10.9725341796875 6.660034656524658 0.4296875
+{'loss': 10.9725, 'learning_rate': 2.0266666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  10.479294776916504 6.448044776916504 0.404296875
+{'loss': 10.4793, 'learning_rate': 2.08e-05, 'epoch': 0.0}
+^^^^^ losses:  9.847284317016602 6.112909317016602 0.373046875
+{'loss': 9.8473, 'learning_rate': 2.1333333333333335e-05, 'epoch': 0.0}
+save models to ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/checkpoint-40
+Non-default generation parameters: {'max_length': 4096}
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+^^^^^ losses:  9.739677429199219 6.130302906036377 0.361328125
+  0%|▏                                                    | 56/12500 [04:02<14:33:46,  4.21s/it]
+{'loss': 9.7397, 'learning_rate': 2.186666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  9.34080696105957 5.99705696105957 0.333984375
+{'loss': 9.3408, 'learning_rate': 2.2400000000000002e-05, 'epoch': 0.0}
+^^^^^ losses:  8.819211959838867 5.787961959838867 0.302734375
+{'loss': 8.8192, 'learning_rate': 2.2933333333333333e-05, 'epoch': 0.0}
+^^^^^ losses:  8.495880126953125 5.683380603790283 0.28125
+{'loss': 8.4959, 'learning_rate': 2.3466666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  8.045969009399414 5.561594486236572 0.2490234375
+{'loss': 8.046, 'learning_rate': 2.4e-05, 'epoch': 0.0}
+^^^^^ losses:  7.804926872253418 5.508051872253418 0.2294921875
+{'loss': 7.8049, 'learning_rate': 2.4533333333333334e-05, 'epoch': 0.0}
+^^^^^ losses:  7.42160701751709 5.32785701751709 0.2099609375
+{'loss': 7.4216, 'learning_rate': 2.5066666666666665e-05, 'epoch': 0.0}
+^^^^^ losses:  7.1965508460998535 5.2590508460998535 0.193359375
+{'loss': 7.1966, 'learning_rate': 2.5600000000000002e-05, 'epoch': 0.0}
+^^^^^ losses:  6.923022747039795 5.118335247039795 0.1806640625
+{'loss': 6.923, 'learning_rate': 2.6133333333333333e-05, 'epoch': 0.0}
+^^^^^ losses:  6.575911998748779 4.864974498748779 0.1708984375
+{'loss': 6.5759, 'learning_rate': 2.6666666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  6.564751625061035 5.017876625061035 0.154296875
+{'loss': 6.5648, 'learning_rate': 2.7200000000000004e-05, 'epoch': 0.0}
+^^^^^ losses:  6.228396892547607 4.790896892547607 0.1435546875
+{'loss': 6.2284, 'learning_rate': 2.7733333333333334e-05, 'epoch': 0.0}
+^^^^^ losses:  6.136291980743408 4.800354480743408 0.1337890625
+{'loss': 6.1363, 'learning_rate': 2.8266666666666668e-05, 'epoch': 0.0}
+^^^^^ losses:  5.964157581329346 4.698532581329346 0.126953125
+{'loss': 5.9642, 'learning_rate': 2.88e-05, 'epoch': 0.0}
+^^^^^ losses:  5.746611595153809 4.566924095153809 0.11767578125
+{'loss': 5.7466, 'learning_rate': 2.9333333333333336e-05, 'epoch': 0.0}
+^^^^^ losses:  5.622744560241699 4.474307060241699 0.11474609375
+{'loss': 5.6227, 'learning_rate': 2.986666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  5.702243804931641 4.616306304931641 0.1083984375
+{'loss': 5.7022, 'learning_rate': 3.04e-05, 'epoch': 0.0}
+^^^^^ losses:  5.593503952026367 4.613035202026367 0.09814453125
+{'loss': 5.5935, 'learning_rate': 3.093333333333334e-05, 'epoch': 0.0}
+^^^^^ losses:  5.183200359344482 4.226169109344482 0.095703125
+{'loss': 5.1832, 'learning_rate': 3.146666666666667e-05, 'epoch': 0.0}
+^^^^^ losses:  5.097228050231934 4.233946800231934 0.08642578125
+{'loss': 5.0972, 'learning_rate': 3.2000000000000005e-05, 'epoch': 0.0}
+save models to ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/checkpoint-60
+Non-default generation parameters: {'max_length': 4096}
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+^^^^^ losses:  5.112692832946777 4.308005332946777 0.08056640625
+  1%|▎                                                    | 76/12500 [05:29<14:31:14,  4.21s/it]
+{'loss': 5.1127, 'learning_rate': 3.253333333333333e-05, 'epoch': 0.0}
+^^^^^ losses:  5.141907691955566 4.395813941955566 0.07470703125
+{'loss': 5.1419, 'learning_rate': 3.3066666666666666e-05, 'epoch': 0.0}
+^^^^^ losses:  4.8007402420043945 4.0546464920043945 0.07470703125
+{'loss': 4.8007, 'learning_rate': 3.3600000000000004e-05, 'epoch': 0.01}
+^^^^^ losses:  5.079629421234131 4.419473171234131 0.06591796875
+{'loss': 5.0796, 'learning_rate': 3.4133333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.7952046394348145 4.1662983894348145 0.06298828125
+{'loss': 4.7952, 'learning_rate': 3.466666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.900509357452393 4.259884357452393 0.06396484375
+{'loss': 4.9005, 'learning_rate': 3.52e-05, 'epoch': 0.01}
+^^^^^ losses:  4.760464191436768 4.166714191436768 0.059326171875
+{'loss': 4.7605, 'learning_rate': 3.573333333333333e-05, 'epoch': 0.01}
+^^^^^ losses:  4.655030250549316 4.080811500549316 0.057373046875
+{'loss': 4.655, 'learning_rate': 3.626666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.639020919799805 4.119489669799805 0.052001953125
+{'loss': 4.639, 'learning_rate': 3.68e-05, 'epoch': 0.01}
+^^^^^ losses:  4.700245380401611 4.221729755401611 0.0478515625
+{'loss': 4.7002, 'learning_rate': 3.733333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.627044200897217 4.138762950897217 0.048828125
+{'loss': 4.627, 'learning_rate': 3.786666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.636623859405518 4.158108234405518 0.0478515625
+{'loss': 4.6366, 'learning_rate': 3.8400000000000005e-05, 'epoch': 0.01}
+^^^^^ losses:  4.520943641662598 4.081490516662598 0.0439453125
+{'loss': 4.5209, 'learning_rate': 3.8933333333333336e-05, 'epoch': 0.01}
+^^^^^ losses:  4.449430465698242 4.011930465698242 0.043701171875
+{'loss': 4.4494, 'learning_rate': 3.9466666666666666e-05, 'epoch': 0.01}
+^^^^^ losses:  4.2722272872924805 3.8581647872924805 0.04150390625
+{'loss': 4.2722, 'learning_rate': 4e-05, 'epoch': 0.01}
+^^^^^ losses:  4.476841926574707 4.117466926574707 0.035888671875
+{'loss': 4.4768, 'learning_rate': 4.0533333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.530996322631836 4.169668197631836 0.0361328125
+{'loss': 4.531, 'learning_rate': 4.106666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.646476745605469 4.306632995605469 0.033935546875
+{'loss': 4.6465, 'learning_rate': 4.16e-05, 'epoch': 0.01}
+^^^^^ losses:  4.4440083503723145 4.1080708503723145 0.03369140625
+{'loss': 4.444, 'learning_rate': 4.213333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.438741683959961 4.102804183959961 0.03369140625
+{'loss': 4.4387, 'learning_rate': 4.266666666666667e-05, 'epoch': 0.01}
+save models to ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/checkpoint-80
+Non-default generation parameters: {'max_length': 4096}
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+^^^^^ losses:  4.278385162353516 3.9639322757720947 0.031494140625
+  1%|▍                                                    | 96/12500 [06:55<14:29:09,  4.20s/it]
+{'loss': 4.2784, 'learning_rate': 4.32e-05, 'epoch': 0.01}
+^^^^^ losses:  4.340854167938232 4.020541667938232 0.031982421875
+{'loss': 4.3409, 'learning_rate': 4.373333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.2690629959106445 3.9897661209106445 0.0279541015625
+{'loss': 4.2691, 'learning_rate': 4.426666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.403709411621094 4.089256286621094 0.031494140625
+{'loss': 4.4037, 'learning_rate': 4.4800000000000005e-05, 'epoch': 0.01}
+^^^^^ losses:  4.350020408630371 4.049239158630371 0.0301513671875
+{'loss': 4.35, 'learning_rate': 4.5333333333333335e-05, 'epoch': 0.01}
+^^^^^ losses:  4.249652862548828 3.9254343509674072 0.032470703125
+{'loss': 4.2497, 'learning_rate': 4.5866666666666666e-05, 'epoch': 0.01}
+^^^^^ losses:  4.39239501953125 4.11114501953125 0.028076171875
+{'loss': 4.3924, 'learning_rate': 4.64e-05, 'epoch': 0.01}
+^^^^^ losses:  4.434690475463867 4.165159225463867 0.0269775390625
+{'loss': 4.4347, 'learning_rate': 4.6933333333333333e-05, 'epoch': 0.01}
+^^^^^ losses:  4.386858940124512 4.117327690124512 0.02685546875
+{'loss': 4.3869, 'learning_rate': 4.746666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.302480697631836 4.003652572631836 0.0299072265625
+{'loss': 4.3025, 'learning_rate': 4.8e-05, 'epoch': 0.01}
+^^^^^ losses:  4.233383655548096 3.9970555305480957 0.023681640625
+{'loss': 4.2334, 'learning_rate': 4.853333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.275982856750488 4.036725044250488 0.02392578125
+{'loss': 4.276, 'learning_rate': 4.906666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.319732189178467 4.050200939178467 0.0269775390625
+{'loss': 4.3197, 'learning_rate': 4.96e-05, 'epoch': 0.01}
+^^^^^ losses:  4.2621846199035645 4.0278096199035645 0.0234375
+{'loss': 4.2622, 'learning_rate': 5.013333333333333e-05, 'epoch': 0.01}
+^^^^^ losses:  4.1604228019714355 3.9153056144714355 0.0245361328125
+{'loss': 4.1604, 'learning_rate': 5.0666666666666674e-05, 'epoch': 0.01}
+^^^^^ losses:  4.355933666229248 4.105933666229248 0.0250244140625
+{'loss': 4.3559, 'learning_rate': 5.1200000000000004e-05, 'epoch': 0.01}
+^^^^^ losses:  4.303508281707764 4.077922344207764 0.0225830078125
+{'loss': 4.3035, 'learning_rate': 5.1733333333333335e-05, 'epoch': 0.01}
+^^^^^ losses:  4.2184529304504395 3.9664998054504395 0.025146484375
+{'loss': 4.2185, 'learning_rate': 5.2266666666666665e-05, 'epoch': 0.01}
+^^^^^ losses:  4.2460784912109375 3.9843597412109375 0.0262451171875
+{'loss': 4.2461, 'learning_rate': 5.28e-05, 'epoch': 0.01}
+^^^^^ losses:  4.49818754196167 4.26967191696167 0.0228271484375
+{'loss': 4.4982, 'learning_rate': 5.333333333333333e-05, 'epoch': 0.01}
+save models to ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/checkpoint-100
+Non-default generation parameters: {'max_length': 4096}
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+^^^^^ losses:  4.138134956359863 3.8979008197784424 0.0240478515625
+  1%|▍                                                   | 116/12500 [08:21<14:27:38,  4.20s/it]
+{'loss': 4.1381, 'learning_rate': 5.3866666666666664e-05, 'epoch': 0.01}
+^^^^^ losses:  4.0495452880859375 3.8014986515045166 0.0247802734375
+{'loss': 4.0495, 'learning_rate': 5.440000000000001e-05, 'epoch': 0.01}
+^^^^^ losses:  4.188321113586426 3.952969789505005 0.0235595703125
+{'loss': 4.1883, 'learning_rate': 5.493333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.1786346435546875 3.9442598819732666 0.0234375
+{'loss': 4.1786, 'learning_rate': 5.546666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.165192127227783 3.954254627227783 0.0211181640625
+{'loss': 4.1652, 'learning_rate': 5.6000000000000006e-05, 'epoch': 0.01}
+^^^^^ losses:  4.0309319496154785 3.8121819496154785 0.0218505859375
+{'loss': 4.0309, 'learning_rate': 5.6533333333333336e-05, 'epoch': 0.01}
+^^^^^ losses:  4.055081367492676 3.811917543411255 0.0242919921875
+{'loss': 4.0551, 'learning_rate': 5.706666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.052353858947754 3.832627296447754 0.02197265625
+{'loss': 4.0524, 'learning_rate': 5.76e-05, 'epoch': 0.01}
+^^^^^ losses:  4.096904277801514 3.8742480278015137 0.022216796875
+{'loss': 4.0969, 'learning_rate': 5.813333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.17913818359375 3.934997797012329 0.0244140625
+{'loss': 4.1791, 'learning_rate': 5.866666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.125260829925537 3.896745204925537 0.0228271484375
+{'loss': 4.1253, 'learning_rate': 5.92e-05, 'epoch': 0.01}
+^^^^^ losses:  3.902703285217285 3.685906410217285 0.021728515625
+{'loss': 3.9027, 'learning_rate': 5.973333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.061054706573486 3.8667187690734863 0.0194091796875
+{'loss': 4.0611, 'learning_rate': 6.026666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.221842288970947 4.018717288970947 0.020263671875
+{'loss': 4.2218, 'learning_rate': 6.08e-05, 'epoch': 0.01}
+^^^^^ losses:  3.9754419326782227 3.7547388076782227 0.0220947265625
+{'loss': 3.9754, 'learning_rate': 6.133333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.095966339111328 3.866473913192749 0.02294921875
+{'loss': 4.096, 'learning_rate': 6.186666666666668e-05, 'epoch': 0.01}
+^^^^^ losses:  3.974764823913574 3.783358573913574 0.0191650390625
+{'loss': 3.9748, 'learning_rate': 6.24e-05, 'epoch': 0.01}
+^^^^^ losses:  4.051526069641113 3.8151979446411133 0.023681640625
+{'loss': 4.0515, 'learning_rate': 6.293333333333334e-05, 'epoch': 0.01}
+^^^^^ losses:  4.145641326904297 3.930797815322876 0.021484375
+{'loss': 4.1456, 'learning_rate': 6.346666666666667e-05, 'epoch': 0.01}
+^^^^^ losses:  4.093883514404297 3.868297576904297 0.0225830078125
+{'loss': 4.0939, 'learning_rate': 6.400000000000001e-05, 'epoch': 0.01}
+save models to ./checkpoints/noneedtrain_depth_annealing-llava-v1.5-7b-task-lora/checkpoint-120
+Non-default generation parameters: {'max_length': 4096}
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+^^^^^ losses:  3.9298226833343506 3.7149789333343506 0.021484375
+  1%|▌                                                   | 124/12500 [08:57<15:13:48,  4.43s/it]
+{'loss': 3.9298, 'learning_rate': 6.453333333333333e-05, 'epoch': 0.01}
+^^^^^ losses:  4.113639831542969 3.8646163940429688 0.02490234375
+{'loss': 4.1136, 'learning_rate': 6.506666666666666e-05, 'epoch': 0.01}
+^^^^^ losses:  4.043560028076172 3.8267629146575928 0.021728515625
+{'loss': 4.0436, 'learning_rate': 6.560000000000001e-05, 'epoch': 0.01}
+^^^^^ losses:  3.853550910949707 3.646519660949707 0.020751953125
+{'loss': 3.8536, 'learning_rate': 6.613333333333333e-05, 'epoch': 0.01}
