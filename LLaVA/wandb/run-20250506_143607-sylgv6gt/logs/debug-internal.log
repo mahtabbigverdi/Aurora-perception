@@ -1,7 +1,0 @@
-{"time":"2025-05-06T14:36:07.656474608-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mmfs1/gscratch/krishna/mahtab/Aurora-perception/LLaVA/wandb/run-20250506_143607-sylgv6gt/logs/debug-core.log"}
-{"time":"2025-05-06T14:36:07.797430511-07:00","level":"INFO","msg":"created new stream","id":"sylgv6gt"}
-{"time":"2025-05-06T14:36:07.797475236-07:00","level":"INFO","msg":"stream: started","id":"sylgv6gt"}
-{"time":"2025-05-06T14:36:07.797490307-07:00","level":"INFO","msg":"handler: started","stream_id":"sylgv6gt"}
-{"time":"2025-05-06T14:36:07.797520716-07:00","level":"INFO","msg":"sender: started","stream_id":"sylgv6gt"}
-{"time":"2025-05-06T14:36:07.797539197-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"sylgv6gt"}
-{"time":"2025-05-06T14:36:08.05353286-07:00","level":"INFO","msg":"Starting system monitor"}
