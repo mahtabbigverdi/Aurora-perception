@@ -23,9 +23,8 @@ from llava.model import *
 from llava.constants import DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 
 
-def load_pretrained_model(model_path, model_base, model_name, depth_data= True,  coordinates_data = False, load_8bit=False, load_4bit=False, device_map="auto", device="cuda", use_flash_attn=False, **kwargs):
+def load_pretrained_model(model_path, model_base, model_name, depth_data= False,  coordinates_data = True, load_8bit=False, load_4bit=False, device_map="auto", device="cuda", use_flash_attn=False, **kwargs):
     kwargs = {"device_map": device_map, **kwargs}
-
     if device != "cuda":
         kwargs['device_map'] = {"": device}
 
@@ -41,7 +40,7 @@ def load_pretrained_model(model_path, model_base, model_name, depth_data= True, 
         )
     else:
         kwargs['torch_dtype'] = torch.float16
-
+    # kwargs['attn_implementation'] =  'sdpa'
     if use_flash_attn:
         kwargs['attn_implementation'] = 'flash_attention_2'
     if 'llava' in model_path.lower():
@@ -84,7 +83,6 @@ def load_pretrained_model(model_path, model_base, model_name, depth_data= True, 
             if any(k.startswith('model.model.') for k in non_lora_trainables):
                 non_lora_trainables = {(k[6:] if k.startswith('model.') else k): v for k, v in non_lora_trainables.items()}
             model.load_state_dict(non_lora_trainables, strict=False)
-
             from peft import PeftModel
             print('Loading LoRA weights...')
             model = PeftModel.from_pretrained(model, model_path)

@@ -90,7 +90,7 @@ if __name__ == "__main__":
     parser.add_argument("--model-path", type=str, default="facebook/opt-350m")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--coordinates-data", type=bool, default=False)
-    parser.add_argument("--depth-data", type=bool, default=True)
+    parser.add_argument("--depth-data", type=bool, default=False)
     parser.add_argument("--image-folder", type=str, default="")
     parser.add_argument("--question-file", type=str, default="tables/question.jsonl")
     parser.add_argument("--answers-file", type=str, default="answer.jsonl")
